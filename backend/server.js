@@ -19,7 +19,9 @@ const io = new Server(httpServer, {
     }
 });
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://intervue-poll.vercel.app'
+}));
 app.use(express.json());
 app.use('/poll', Routes);
 app.use('/chat', ChatRoutes);
