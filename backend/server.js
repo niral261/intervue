@@ -65,3 +65,6 @@ const PASSWORD = process.env.DB_PASSWORD;
 const URL = process.env.MONGODB_URI || `mongodb+srv://${USERNAME}:${PASSWORD}@cluster0.dwhb53c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&authSource=admin`;
 Connection(URL);
 
+
+export default app;
+
