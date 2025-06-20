@@ -20,7 +20,7 @@ const io = new Server(httpServer, {
 });
 
 app.use(cors({
-    origin: 'https://intervue-liard.vercel.app/'
+    origin: '*'
 }));
 app.use(express.json());
 app.use('/poll', Routes);
