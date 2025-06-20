@@ -1,2 +1,2 @@
-export const API_URL = 'http://localhost:8000/poll';
-export const SOCKET_URL = 'http://localhost:8000';
+export const API_URL = 'https://intervue-backend-azure.vercel.app/poll';
+export const SOCKET_URL = 'https://intervue-backend-azure.vercel.app';
